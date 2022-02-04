@@ -1,0 +1,687 @@
+.box {
+    background-color: #fcfcfc;
+}
+
+.pinpage_left_codepin {
+    margin-left: 14px;
+    margin-top: -10px;
+}
+
+.pinpage {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-user-select: none;
+    /* Safari */
+    -ms-user-select: none;
+    /* IE 10 and IE 11 */
+    user-select: none;
+    /* Standard syntax */
+}
+
+.pinpage_left {
+    background-color: #fcfcfc;
+    padding: 3.75rem;
+    height: 24rem;
+    width: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1.25rem;
+}
+
+.pinpage_left img {
+    width: 8rem;
+    height: 7rem;
+    margin-left: 4.1rem;
+}
+
+.pinpage_left_heading {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 0.5625rem;
+    margin-left: 3rem;
+}
+
+.pinpage_left_codepin {
+    /* remove hide arrows from input number */
+    /* remove hide arrows from input number */
+    display: flex;
+    align-items: center;
+}
+
+.pinpage_left_codepin input::-webkit-outer-spin-button,
+.pinpage_left_codepin input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.pinpage_left_codepin input[type=number] {
+    /* Firefox */
+    -moz-appearance: textfield;
+}
+
+.pinpage_left_codepin input {
+    width: 3.3rem;
+    margin-left: 0.5rem;
+}
+
+.pinpage_left_text {
+    margin-left: 3rem;
+}
+
+.pinpage_left_text span {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.pinpage_left_text button {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.pinpage_left_text button img {
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-top: -0.1875rem;
+    margin-left: -0.25rem;
+}
+
+.pinpage_left_bottom {
+    width: 27rem;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 3rem;
+}
+
+.pinpage_left_bottom span {
+    color: #000;
+    font-weight: 500;
+    margin-top: 0.25rem;
+    margin-right: 0.1875rem;
+}
+
+.pinpage_left_bottom button {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.pinpage_left_bottom button img {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-top: -0.1875rem;
+    margin-left: -0.25rem;
+}
+
+.pinpage_right {
+    background: rgba(204, 0, 0, 0.1);
+    padding: 60px;
+    height: 26rem;
+    width: 21rem;
+}
+
+.pinpage_right img {
+    width: 14rem;
+    height: 21rem;
+}
+
+@media (max-width: 1200px) {
+    .pinpage_left_codepin {
+        margin-left: 10px;
+        margin-top: -10px;
+    }
+    .pinpage_left {
+        padding: 3.75rem;
+        height: 23rem;
+        width: 29rem;
+    }
+    .pinpage_left img {
+        width: 7rem;
+        height: 6rem;
+        margin-left: 4.1rem;
+    }
+    .pinpage_left_heading {
+        font-size: 1.385rem;
+        margin-top: 0.3625rem;
+    }
+    .pinpage_left_codepin input {
+        width: 3rem;
+        margin-left: 0.7rem;
+    }
+    .pinpage_left_text {
+        margin-left: 3rem;
+    }
+    .pinpage_left_text button img {
+        width: 1.2rem;
+        height: 1.2rem;
+    }
+    .pinpage_left_bottom span {
+        color: #000;
+        font-weight: 500;
+        margin-top: 0.25rem;
+        margin-right: 0.1875rem;
+        font-size: 0.95rem;
+    }
+    .pinpage_left_bottom button img {
+        width: 1.3rem;
+        height: 1.3rem;
+        margin-top: -0.25rem;
+    }
+    .pinpage_right {
+        padding: 60px;
+        height: 26rem;
+        width: 21rem;
+    }
+    .pinpage_right img {
+        width: 13rem;
+        height: 20rem;
+    }
+}
+
+@media (max-width: 1050px) {
+    .pinpage_left_codepin {
+        margin-left: 8px;
+        margin-top: -10px;
+    }
+    .pinpage_left {
+        margin-left: 30px !important;
+    }
+    .pinpage_left {
+        padding: 3.25rem;
+        height: 20rem;
+        width: 27rem;
+    }
+    .pinpage_left img {
+        width: 6.8rem;
+        height: 5.9rem;
+        margin-left: 3.1rem;
+    }
+    .pinpage_left_heading {
+        font-size: 1.185rem;
+        margin-top: 0.5625rem;
+        margin-left: 2.7rem;
+    }
+    .pinpage_left_codepin input {
+        width: 2.28rem;
+        margin-left: 0.7rem;
+    }
+    .pinpage_left_text {
+        margin-left: 2.2rem;
+    }
+    .pinpage_left_text span {
+        font-size: 0.9rem;
+    }
+    .pinpage_left_text button img {
+        width: 1rem;
+        height: 1rem;
+    }
+    .pinpage_left_bottom {
+        margin-left: -20px;
+    }
+    .pinpage_left_bottom span {
+        color: #000;
+        font-weight: 500;
+        margin-top: 0.3rem;
+        margin-right: 1.0875rem;
+        font-size: 0.85rem;
+    }
+    .pinpage_left_bottom button img {
+        width: 1.3rem;
+        height: 1.3rem;
+        margin-top: -0.25rem;
+        margin-left: -21px;
+    }
+    .pinpage_right {
+        padding: 60px;
+        height: 26rem;
+        width: 21rem;
+    }
+    .pinpage_right img {
+        margin-left: 30px;
+        width: 11rem;
+        height: 19rem;
+    }
+}
+
+@media (max-width: 880px) {
+    .pinpage_left_codepin {
+        margin-left: 1px !important;
+        margin-top: -10px;
+    }
+    .pinpage_left {
+        margin-left: -1px !important;
+    }
+    .pinpage_left {
+        padding: 3rem;
+        height: 10rem;
+        width: 25rem;
+    }
+    .pinpage_left img {
+        width: 6.1rem;
+        height: 5.3rem;
+        margin-left: 3.1rem;
+    }
+    .pinpage_left_heading {
+        font-size: 0.995rem;
+        margin-top: 0.6625rem;
+        margin-left: 2.8rem;
+    }
+    .pinpage_left_codepin {
+        margin-left: 16px;
+    }
+    .pinpage_left_codepin input {
+        width: 1.9rem;
+        margin-left: 0.5rem;
+    }
+    .pinpage_left_text {
+        margin-left: 2.2rem;
+        margin-top: -10px;
+    }
+    .pinpage_left_text span {
+        font-size: 0.8rem;
+    }
+    .pinpage_left_text button {
+        margin-top: -21px;
+    }
+    .pinpage_left_text button img {
+        width: 1rem;
+        height: 1rem;
+        margin-left: -1px;
+        margin-top: 0px;
+    }
+    .pinpage_left_bottom {
+        margin-left: -60px;
+    }
+    .pinpage_left_bottom span {
+        color: #000;
+        font-weight: 500;
+        margin-top: 0.3rem;
+        margin-right: 1.0875rem;
+        font-size: 0.75rem;
+    }
+    .pinpage_left_bottom button img {
+        width: 1.3rem;
+        height: 1.3rem;
+        margin-top: -0.3rem;
+        margin-left: -20px;
+    }
+    .pinpage_right {
+        padding: 60px;
+        height: 26rem;
+        width: 21rem;
+    }
+    .pinpage_right img {
+        margin-left: 30px;
+        width: 11rem;
+        height: 19rem;
+    }
+}
+
+@media (max-width: 880px) {
+    .pinpage_left {
+        padding: 2rem;
+        height: 10rem;
+        width: 19.5rem;
+    }
+    .pinpage_left img {
+        width: 6.1rem;
+        height: 5.3rem;
+        margin-left: 3.1rem;
+    }
+    .pinpage_left_heading {
+        font-size: 0.995rem;
+        margin-top: 0.6625rem;
+        margin-left: 2.8rem;
+    }
+    .pinpage_left_codepin {
+        margin-left: 16px;
+    }
+    .pinpage_left_codepin input {
+        width: 1.9rem;
+        margin-left: 0.5rem;
+    }
+    .pinpage_left_text {
+        margin-left: 2.2rem;
+        margin-top: -10px;
+    }
+    .pinpage_left_text span {
+        font-size: 0.8rem;
+    }
+    .pinpage_left_text button {
+        margin-top: -21px;
+    }
+    .pinpage_left_text button img {
+        width: 1rem;
+        height: 1rem;
+        margin-left: -1px;
+        margin-top: 0px;
+    }
+    .pinpage_left_bottom {
+        margin-left: -140px;
+    }
+    .pinpage_left_bottom span {
+        color: #000;
+        font-weight: 500;
+        margin-top: 0.3rem;
+        margin-right: 1.0875rem;
+        font-size: 0.75rem;
+    }
+    .pinpage_left_bottom button img {
+        width: 1.3rem;
+        height: 1.3rem;
+        margin-top: -0.3rem;
+        margin-left: -20px;
+    }
+    .pinpage_right {
+        padding: 60px;
+        height: 26rem;
+        width: 16.75rem;
+    }
+    .pinpage_right img {
+        margin-top: 30px;
+        margin-left: 16px;
+        width: 8.75rem;
+        height: 16.75rem;
+    }
+}
+
+@media (max-width: 665px) {
+    .pinpage_left_codepin {
+        margin-left: 5px !important;
+        margin-top: -10px;
+        width: 169px;
+    }
+    .pinpage_left {
+        margin-left: 10px !important;
+    }
+    .pinpage_left {
+        padding: 2rem;
+        height: 10rem;
+        width: 14.5rem;
+    }
+    .pinpage_left img {
+        width: 5.1rem;
+        height: 4.6rem;
+        margin-left: 3.1rem;
+    }
+    .pinpage_left_heading {
+        font-size: 0.795rem;
+        margin-top: 0.6625rem;
+        margin-left: 3rem;
+    }
+    .pinpage_left_codepin {
+        margin-left: 16px;
+    }
+    .pinpage_left_codepin input {
+        width: 1.2rem;
+        height: 1.7rem;
+        margin-left: 0.5rem;
+    }
+    .pinpage_left_text {
+        display: flex;
+        align-items: center;
+        margin-left: 2.12rem;
+        margin-top: -10px;
+    }
+    .pinpage_left_text span {
+        font-size: 0.8rem;
+    }
+    .pinpage_left_text button {
+        margin-top: -3px;
+        margin-left: 2.5px;
+    }
+    .pinpage_left_text button img {
+        width: 0.75rem;
+        height: 0.825rem;
+        margin-left: -5px;
+        margin-top: 0px;
+    }
+    .pinpage_left_bottom {
+        margin-left: -220px;
+    }
+    .pinpage_left_bottom span {
+        color: #000;
+        font-weight: 500;
+        margin-top: 0.3rem;
+        margin-right: 1.0875rem;
+        font-size: 0.6rem;
+    }
+    .pinpage_left_bottom button img {
+        width: 1rem;
+        height: 1rem;
+        margin-top: -0.5rem;
+        margin-left: -20px;
+    }
+    .pinpage_right {
+        padding: 60px;
+        height: 26rem;
+        width: 12.75rem;
+    }
+    .pinpage_right img {
+        margin-top: 50px;
+        margin-left: -20px;
+        width: 7.05rem;
+        height: 14.05rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .pinpage_left_codepin {
+        margin-left: 32px !important;
+        margin-top: -20px;
+        width: 135px;
+    }
+    .pinpage_left {
+        margin-left: -40px !important;
+    }
+    .box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+        margin-top: 20px;
+        padding: 70px;
+        background-color: #fcfcfc;
+    }
+    .pinpage_right {
+        display: none;
+        width: 100%;
+        height: 250px;
+    }
+    .pinpage_right img {
+        width: 6rem;
+        height: 11rem;
+        margin-left: 5px;
+        margin-top: -20px;
+    }
+    .pinpage_left {
+        margin-left: -30px;
+        background-color: transparent;
+    }
+    .pinpage_left img {
+        margin-left: 3.45rem;
+        margin-top: 30px;
+        width: 90px;
+        height: 80px;
+    }
+    .pinpage_left_heading {
+        margin-left: 2.1rem;
+        margin-top: 6px;
+        font-size: 1.3rem;
+    }
+    .pinpage_left_codepin {
+        margin-left: 26px;
+    }
+    .pinpage_left_codepin input {
+        width: 1rem;
+        height: 1.5rem;
+        margin-top: -12px;
+    }
+    .pinpage_left_text {
+        margin-top: -10px;
+        margin-left: 2.75rem;
+    }
+    .pinpage_left_text span {
+        font-size: 0.7rem;
+    }
+    .pinpage_left_text button {
+        margin-left: 2px;
+    }
+    .pinpage_left_text button img {
+        width: 0.9rem;
+        height: 1rem;
+    }
+    .pinpage_left_bottom {
+        margin-left: -70px;
+        margin-top: 54px;
+    }
+    .pinpage_left_bottom span {
+        margin-top: 0.35rem;
+    }
+    .pinpage_left_bottom button {
+        margin-left: -3px;
+    }
+    .pinpage_left_bottom button img {
+        width: 0.9rem;
+        height: 0.9rem;
+    }
+    .pinpage_left_bottom {
+        margin-top: 10px;
+        margin-left: -120px;
+    }
+}
+
+@media (max-width: 420px) {
+    .box {
+        padding: 50px;
+    }
+    .pinpage_left {
+        margin-left: -20px !important;
+    }
+    .pinpage_left img {
+        margin-left: 3.75rem !important;
+        margin-top: 30px;
+        width: 80px;
+        height: 70px;
+        margin-left: 65px;
+    }
+    .pinpage_left_text span {
+        font-size: 10px;
+        margin-left: 5px;
+        width: 5rem;
+    }
+    .pinpage_left_text button {
+        margin-left: -65px;
+    }
+    .pinpage_left_heading {
+        font-size: 1.1rem;
+        margin-left: 41px;
+    }
+    .pinpage_left_bottom {
+        margin-top: 10px;
+    }
+    .pinpage_left_bottom button {
+        margin-left: -80px;
+    }
+}
+
+@media (max-width: 360px) {
+    .box {
+        padding: 36px;
+    }
+    .pinpage_left_text {
+        margin-top: -20px;
+        margin-left: 40px;
+    }
+    .pinpage_left_text button {
+        margin-left: -77.5px;
+    }
+    .pinpage_left_bottom {
+        margin-top: -3px;
+        margin-left: -140px;
+    }
+    .pinpage_left img {
+        margin-left: 4.15rem !important;
+        margin-top: 30px;
+        width: 70px;
+        height: 60px;
+        margin-left: 68px;
+    }
+    .pinpage_left_text span {
+        font-size: 9px;
+        margin-left: 15px;
+        margin-top: -2px;
+    }
+    .pinpage_left_heading {
+        font-size: 0.9rem;
+        margin-left: 54px;
+    }
+    .pinpage_left_text button img {
+        width: 0.8rem;
+        height: 0.8rem;
+        margin-top: -3px;
+    }
+    .pinpage_left_bottom {
+        margin-top: 10px;
+    }
+    .pinpage_left_bottom button {
+        margin-left: -86px;
+    }
+}
+
+@media (max-width: 310px) {
+    .box {
+        padding: 25px;
+    }
+    .pinpage_left img {
+        margin-left: 4.375rem !important;
+        margin-top: 30px;
+        width: 60px;
+        height: 50px;
+        margin-left: 73px;
+    }
+    .pinpage_left_bottom {
+        margin-top: -5px;
+        margin-left: -162px !important;
+    }
+    .pinpage_left_text button {
+        margin-left: -81.25px;
+    }
+    .pinpage_left_bottom button {
+        margin-left: -98px;
+    }
+    .pinpage_left_bottom {
+        margin-top: 0px;
+    }
+    .pinpage_left_bottom button {
+        margin-left: -92px;
+    }
+}
+
+@media (max-width: 267px) {
+    .box {
+        padding: 20px;
+    }
+    .pinpage_left_bottom {
+        margin-top: 2px;
+        margin-left: -160px;
+    }
+    .pinpage_left img {
+        margin-left: 4.45rem;
+        margin-top: 6px;
+    }
+    .pinpage_left_bottom {
+        margin-top: 0px;
+        margin-left: -200px !important;
+    }
+    .pinpage_left_bottom button {
+        margin-left: -91px;
+    }
+}

@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+/* Font specs */
+
+@font-face {
+    font-family: 'HK Grotesk Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('HK Grotesk Regular'), url('./fonts/HKGrotesk-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'HKGroteskLight';
+    font-style: normal;
+    font-weight: normal;
+    src: local('HK Grotesk Light'), url('./fonts/HKGrotesk-Light.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'HK Grotesk Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('HK Grotesk Medium'), url('./fonts/HKGrotesk-Medium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'HK Grotesk SemiBold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('HK Grotesk SemiBold'), url('./fonts/HKGrotesk-SemiBold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'HK Grotesk Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('HK Grotesk Bold'), url('./fonts/HKGrotesk-Bold.woff') format('woff');
+}
